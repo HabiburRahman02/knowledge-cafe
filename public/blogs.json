@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "cover_img": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "author_img": "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "author_name": "John Doe",
+        "published_date": "20 October 2024",
+        "reading_time": 5,
+        "title": "Understanding React Hooks",
+        "hashtags": [
+            "#React",
+            "#JavaScript"
+        ]
+    },
+    {
+        "id": 2,
+        "cover_img": "https://images.pexels.com/photos/18464990/pexels-photo-18464990/free-photo-of-a-typewriter-with-a-paper-that-says-life-long-learning.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "author_img": "https://images.pexels.com/photos/712513/pexels-photo-712513.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "author_name": "Jane Smith",
+        "published_date": "18 October 2024",
+        "reading_time": 8,
+        "title": "CSS Grid vs Flexbox",
+        "hashtags": [
+            "#CSS",
+            "#Grid"
+        ]
+    },
+    {
+        "id": 3,
+        "cover_img": "https://images.pexels.com/photos/4709285/pexels-photo-4709285.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "author_img": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "author_name": "Alice Johnson",
+        "published_date": "15 October 2024",
+        "reading_time": 10,
+        "title": "JavaScript ES6 Features",
+        "hashtags": [
+            "#JavaScript",
+            "#ES6"
+        ]
+    },
+    {
+        "id": 4,
+        "cover_img": "https://i.ibb.co.com/sJ261qv/pexels-jakubzerdzicki-27691009.jpg",
+        "author_img": "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "author_name": "Bob Williams",
+        "published_date": "12 October 2024",
+        "reading_time": 7,
+        "title": "Building Responsive Layouts",
+        "hashtags": [
+            "#Responsive",
+            "#CSS"
+        ]
+    },
+    {
+        "id": 5,
+        "cover_img": "https://images.pexels.com/photos/28454825/pexels-photo-28454825/free-photo-of-modern-office-desk-with-laptop-and-tablet-setup.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "author_img": "https://images.pexels.com/photos/1065084/pexels-photo-1065084.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "author_name": "Emily Davis",
+        "published_date": "10 October 2024",
+        "reading_time": 6,
+        "title": "Introduction to TypeScript",
+        "hashtags": [
+            "#TypeScript",
+            "#JavaScript"
+        ]
+    }
+]
