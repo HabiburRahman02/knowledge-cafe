@@ -1,8 +1,9 @@
+/* eslint-disable react/prop-types */
 import { useEffect } from "react";
 import { useState } from "react";
 import Blog from "../Blog/Blog";
 
-const Blogs = () => {
+const Blogs = ({ handleBookMarks }) => {
     const [blogs, setBlogs] = useState([]);
 
     useEffect(() => {
@@ -11,9 +12,6 @@ const Blogs = () => {
             .then(data => setBlogs(data))
     }, [])
 
-    const handleBookMarks = blog => {
-        console.log('clicked', blog);
-    }
     return (
         <div>
             {
