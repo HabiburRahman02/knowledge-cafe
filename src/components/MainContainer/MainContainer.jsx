@@ -3,9 +3,13 @@ import BookMarks from "../BookMarks/BookMarks";
 
 const MainContainer = () => {
     return (
-        <div className="flex justify-between">
-            <Blogs className="w-2/3"></Blogs>
-            <BookMarks className="w-1/3"></BookMarks>
+        <div className="md:flex justify-between gap-6 my-6">
+            <div className="md:w-2/3">
+                <Blogs ></Blogs>
+            </div>
+            <div className="md:w-1/3">
+                <BookMarks></BookMarks>
+            </div>
         </div>
     );
 };
