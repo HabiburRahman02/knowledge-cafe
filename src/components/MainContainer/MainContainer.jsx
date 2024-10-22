@@ -4,20 +4,28 @@ import BookMarks from "../BookMarks/BookMarks";
 
 const MainContainer = () => {
     const [bookMarks, setBookMarks] = useState([]);
+    const [readingTime, setReadingTime] = useState(0);
 
     const handleBookMarks = blog => {
         const newBookMarks = [...bookMarks, blog];
         setBookMarks(newBookMarks);
-        console.log(blog);
+    }
+
+    const handleMarkAsRead = (time) => {
+        setReadingTime(readingTime + time)
     }
 
     return (
         <div className="md:flex justify-between gap-6 my-6">
             <div className="md:w-2/3">
-                <Blogs handleBookMarks={handleBookMarks}></Blogs>
+                <Blogs handleBookMarks={handleBookMarks}
+                    handleMarkAsRead={handleMarkAsRead}
+                ></Blogs>
             </div>
             <div className="md:w-1/3">
-                <BookMarks bookMarks={bookMarks}></BookMarks>
+                <BookMarks bookMarks={bookMarks}
+                    readingTime={readingTime}
+                ></BookMarks>
             </div>
         </div>
     );
