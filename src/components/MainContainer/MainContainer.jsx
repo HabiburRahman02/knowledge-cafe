@@ -11,8 +11,10 @@ const MainContainer = () => {
         setBookMarks(newBookMarks);
     }
 
-    const handleMarkAsRead = (time) => {
+    const handleMarkAsRead = (time, id) => {
         setReadingTime(readingTime + time)
+        const remaining = bookMarks.filter(bookMark => bookMark.id !== id);
+        setBookMarks(remaining)
     }
 
     return (
